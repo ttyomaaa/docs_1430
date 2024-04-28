@@ -8,7 +8,11 @@ nav:
   - О проекте: 'index.md'
   - Бот с интерактивными заданиями:
     - Архитектура: 'new_bot/arch.md'
-    - Код: 'new_bot/code.md'
+    - Системные требования: 'new_bot/requirements.md'
+    - Модуль WebApp: 'new_bot/webapp.md'
+  - Бот вводного курса по истории криптографии:
+    - Архитектура: 'old_bot/arch.md'
+    - Системные требования: 'old_bot/requirements.md'
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:

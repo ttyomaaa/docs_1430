@@ -1,9 +1,34 @@
-Здесь про архитектуру и структуру, например:<br>
+Здесь что-то структуру, например:<br>
 
 :fontawesome-regular-folder: app <br>
 &emsp;&emsp;:fontawesome-regular-folder: ciphers <br>
 &emsp;&emsp;└──:fontawesome-brands-python: cipher.py <br>
 &emsp;&emsp;:fontawesome-regular-folder: config <br>
-&emsp;&emsp;├──:fontawesome-brands-python: .env <br>
+&emsp;&emsp;├──:fontawesome-solid-file: .env <br>
 &emsp;&emsp;├──:fontawesome-brands-python: bot_startup.py <br>
 &emsp;&emsp;└──:fontawesome-brands-python: settings.py <br>
+&emsp;&emsp;:fontawesome-regular-folder: enums <br>
+&emsp;&emsp;├──:fontawesome-brands-python: texts.py <br>
+&emsp;&emsp;└──:fontawesome-solid-file: vars_for_enigma.xlsx <br>
+&emsp;&emsp;:fontawesome-regular-folder: filters <br>
+&emsp;&emsp;└──:fontawesome-brands-python: validators.py <br>
+&emsp;&emsp;:fontawesome-regular-folder: fsm <br>
+&emsp;&emsp;└──:fontawesome-brands-python: states.py <br>
+&emsp;&emsp;:fontawesome-regular-folder: handlers <br>
+&emsp;&emsp;├──:fontawesome-brands-python: coder.py <br>
+&emsp;&emsp;├──:fontawesome-brands-python: commands.py <br>
+&emsp;&emsp;└──:fontawesome-brands-python: structure.py <br>
+&emsp;&emsp;:fontawesome-regular-folder: keyboards <br>
+&emsp;&emsp;└──:fontawesome-brands-python: keyboard_builders.py <br>
+&emsp;&emsp;:fontawesome-regular-folder: resourcesdb <br>
+&emsp;&emsp;└──:fontawesome-regular-folder: media <br>
+&emsp;&emsp;:fontawesome-regular-folder: storage <br>
+&emsp;&emsp;└──:fontawesome-brands-python: custom_storage.py <br>
+&emsp;&emsp;:fontawesome-brands-python: bot.py <br>
+:fontawesome-regular-folder: tests <br>
+├──:fontawesome-brands-python: \__init__.py <br>
+├──:fontawesome-brands-python: conftest.py <br>
+├──:fontawesome-brands-python: test_errors.py <br>
+├──:fontawesome-brands-python: test_logic.py <br>
+└──:fontawesome-brands-python: test_unit.py <br>
+:fontawesome-solid-file: requirements.txt <br>
