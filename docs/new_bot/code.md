@@ -1,4 +1,4 @@
-Здесь про код например:
+### Здесь про код например:
 
 ```py 
 class PreButtonStates(StatesGroup):
@@ -9,4 +9,11 @@ class PreButtonStates(StatesGroup):
 class ButtonsStates(StatesGroup):
     button1 = State()
     button2 = State()
+```
+
+### Или вот еще
+
+```py
+@router.message(Command('chapters'))
+async def command_chapters(message: Message, state: FSMContext):
 ```
