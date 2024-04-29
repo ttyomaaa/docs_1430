@@ -18,6 +18,13 @@ nav:
   - Бот вводного курса по истории криптографии:
     - Справка: 'old_bot/disclaim.md'
     - Технические требования: 'old_bot/requirements.md'
+    - Архитектура:
+      - Файловая структура: 'old_bot/struc.md'
+      - Общее описание: 'old_bot/integr.md'
+      - Архиетктура БД: 'old_bot/arch_bd.md'
+      - Архиетктура API: 'old_bot/arch_api.md'
+    - Модуль опросов по главам: 'old_bot/tests.md'
+    - Запуск модулей: 'old_bot/run.md'
 
 extra_css:
   - stylesheets/extra.css
