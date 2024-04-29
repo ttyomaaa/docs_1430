@@ -13,6 +13,8 @@ nav:
       - Архиетктура проекта: 'new_bot/arch.md'
       - Машина состояний: 'new_bot/fsm.md'
     - Модуль WebApp: 'new_bot/webapp.md'
+    - Тестирование : 'new_bot/tests.md'
+    - Запуск модулей: 'new_bot/run.md'
   - Бот вводного курса по истории криптографии:
     - Архитектура: 'old_bot/arch.md'
     - Технические требования: 'old_bot/requirements.md'

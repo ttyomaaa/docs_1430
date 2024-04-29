@@ -4,7 +4,7 @@
 &emsp;&emsp;:fontawesome-regular-folder: ciphers _**- подпрограммы шифров **_  <br>
 &emsp;&emsp;└──:fontawesome-brands-python: cipher.py <br>
 &emsp;&emsp;:fontawesome-regular-folder: config _**- конфигурации бота **_ <br>
-&emsp;&emsp;├──:fontawesome-solid-file: .env <br>
+&emsp;&emsp;├──:fontawesome-solid-file: .env _**-  telegram-token **_ <br>
 &emsp;&emsp;├──:fontawesome-brands-python: bot_startup.py <br>
 &emsp;&emsp;└──:fontawesome-brands-python: settings.py <br>
 &emsp;&emsp;:fontawesome-regular-folder: enums _**- конфигурации шифров и выдаваемых сообщений **_ <br>
