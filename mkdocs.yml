@@ -16,8 +16,9 @@ nav:
     - Тестирование : 'new_bot/tests.md'
     - Запуск модулей: 'new_bot/run.md'
   - Бот вводного курса по истории криптографии:
-    - Архитектура: 'old_bot/arch.md'
+    - Справка: 'old_bot/disclaim.md'
     - Технические требования: 'old_bot/requirements.md'
+
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:

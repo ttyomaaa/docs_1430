@@ -1,1 +1,34 @@
-пусто
+В файле :fontawesome-solid-file: _requirements.txt_  перечислены требуемые для работы проекта библиотеки, а именно:<br>
+`aiofiles==23.1.0` <br>
+`aiogram==3.0.0` <br>
+`aiohttp==3.8.6` <br>
+`aiosignal==1.3.1` <br>
+`annotated-types==0.6.0` <br>
+`async-timeout==4.0.3` <br>
+`attrs==23.1.0` <br>
+`certifi==2023.7.22` <br>
+`charset-normalizer==3.3.0` <br>
+`frozenlist==1.4.0` <br>
+`idna==3.4` <br>
+`magic-filter==1.0.12` <br>
+`multidict==6.0.4` <br>
+`pydantic==2.3.0` <br>
+`pydantic_core==2.6.3` <br>
+`pyTelegramBotAPI==4.14.0` <br>
+`python-dotenv==1.0.0` <br>
+`redis==5.0.1` <br>
+`requests==2.31.0` <br>
+`typing_extensions==4.7.1` <br>
+`urllib3==2.0.7` <br>
+`yarl==1.9.2` <br>
+`SQLAlchemy` <br>
+`psycopg2-binary==2.9.5` <br>
+`python-dotenv` <br>
+`asyncpg` <br>
+`fastapi` <br>
+`uvicorn` <br> 
+`numpy` <br>
+`seaborn` <br>
+`pandas` <br>
+`jinja2` <br>
+`matplotlib` <br>

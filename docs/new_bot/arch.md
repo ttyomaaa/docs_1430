@@ -67,7 +67,7 @@ async def process_end(callback: CallbackQuery, state: FSMContext):
 1. :fontawesome-brands-python: _cipher.py_ <br>
 2. :fontawesome-brands-python: _validators.py_ <br>
 
-* Первый содержит подпрограммы работы шифров, например, четверты шифр второй главы:
+* Первый содержит подпрограммы работы шифров, например, четвертый шифр второй главы:
 ```py
 def cipher24(input_text: str, first: str, mode: bool, second: str):
 ```
@@ -84,7 +84,7 @@ sig = signature(cipher)
 params = len(sig.parameters) - 1
 if params > 1:
         valid = getattr(filters.validators, "key_validation" + str(chapter_n) + str(cipher_n))
- if params > 2:
+if params > 2:
         valid2 = getattr(filters.validators, "key_validation" + str(chapter_n) + str(cipher_n) + "_2")
 ```
 ### Функция обработки возврата на предыдущий этап
