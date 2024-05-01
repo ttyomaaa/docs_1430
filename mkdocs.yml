@@ -23,7 +23,7 @@ nav:
       - Общее описание: 'old_bot/integr.md'
       - Архиетктура БД: 'old_bot/arch_bd.md'
       - Архиетктура API: 'old_bot/arch_api.md'
-    - Модуль опросов по главам: 'old_bot/tests.md'
+    - Модуль опросов по главам и статистики: 'old_bot/tests.md'
     - Конфигурация сервера: 'old_bot/server.md'
     - Запуск модулей: 'old_bot/run.md'
 
