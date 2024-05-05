@@ -13,6 +13,7 @@
 ...<br>
 :fontawesome-regular-folder: resources _**- медиа-файлы для тестов **_<br> 
 ...<br>
+:fontawesome-regular-folder: static _**- оформление html страниц **_<br>
 :fontawesome-regular-folder: templates _**- html страницы для админ-панели **_<br>
 ├──:fontawesome-solid-file: basic.html _**- базовая страница **_<br>
 └──:fontawesome-solid-file: index.html _**- страница после авторизации **_<br>
