@@ -88,8 +88,33 @@ if params > 2:
         valid2 = getattr(filters.validators, "key_validation" + str(chapter_n) + str(cipher_n) + "_2")
 ```
 ### Функция обработки возврата на предыдущий этап
-Функция универсальна для любого сценария, при выполнении перемещает пользователя на шаг назад
+Функция универсальна для любого сценария, при выполнении перемещает пользователя на шаг назад.
 ```py
 @router.callback_query(F.data == 'back')
 async def go_back(callback: CallbackQuery, state: FSMContext):
 ```
+
+### Функция обработки ошибок (TelegramAPI)
+Обработчик сбрасывает введенные пользователем данные и предотвращает остановку бота. Разработан для случая, если сообщение, отправляемое ботом, превышает лимит Telegram.
+```py
+@router.error(ExceptionMessageFilter(ERROR_MSG), F.update.message.as_("message"))
+async def handle_msg_too_long(event: ErrorEvent, message: Message, state: FSMContext):
+```
+
+### Генераторы ключей
+Для некоторых шифров могут потребоваться генераторы ключей, ввиду слишком сложного ввода для пользователя. <br>
+Данные процедуры реализованы следующих клавиатуре, обработчике и функции:
+```py
+def generate_maker() -> InlineKeyboardMarkup:
+```
+
+```py
+@router.callback_query(or_f(StateFilter(ButtonsStates.button1), StateFilter(ButtonsStates.button2)), or_f(F.data.startswith('gen'), F.data.startswith('yes')))
+async def process_generate(callback: CallbackQuery, state: FSMContext):
+```
+
+```py
+def generator(cipher_code: str) -> str:
+```
+
+Общая процедура: прикрепить клавиатуру, сгенерировать ввод по запросу, дождаться подтверждения от пользователя, сохранить его в состоянии, удалить клавиатуру (так же в случае выхода из шифра).
